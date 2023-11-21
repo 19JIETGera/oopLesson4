@@ -14,7 +14,7 @@ public class TeacherService implements UserService<Teacher>{
     public TeacherService() {
         this.teachers = new ArrayList<>();
     }
-
+    //Здесь используется принцип OCP
     @Override
     public List<Teacher> getAll() {
         return teachers;

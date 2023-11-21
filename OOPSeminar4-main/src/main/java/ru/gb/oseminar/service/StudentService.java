@@ -13,7 +13,7 @@ public class StudentService implements UserService<Student> {
     public StudentService() {
         this.students = new ArrayList<>();
     }
-
+    //Здесь используется принцип OCP
     @Override
     public List<Student> getAll() {
         return students;
