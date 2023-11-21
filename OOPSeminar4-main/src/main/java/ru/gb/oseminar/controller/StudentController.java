@@ -11,6 +11,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class StudentController implements UserController<Student>{
+    //Реализация принципа ISP
 
     private final StudentService dataService = new StudentService();
     private final StudentGroupService studentGroupService = new StudentGroupService();

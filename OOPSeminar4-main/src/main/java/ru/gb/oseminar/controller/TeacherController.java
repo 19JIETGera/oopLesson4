@@ -7,6 +7,7 @@ import ru.gb.oseminar.view.TeacherView;
 import java.time.LocalDate;
 
 public class TeacherController implements UserController<Teacher> {
+    //Реализация принципа ISP
     private final TeacherService dataService = new TeacherService();
     private final TeacherView teacherView = new TeacherView();
 

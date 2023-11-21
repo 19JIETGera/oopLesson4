@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentService implements UserService<Student> {
-
+    //Реализация принципа ISP
     private final List<Student> students;
 
     public StudentService() {

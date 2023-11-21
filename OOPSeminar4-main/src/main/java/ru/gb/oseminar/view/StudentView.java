@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class StudentView implements UserView<Student>{
-
+    //Реализация принципа ISP
     Logger logger = Logger.getLogger(StudentView.class.getName());
 
     @Override
