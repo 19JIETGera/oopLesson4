@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.Comparator;
 
 public class Teacher extends User{
-
+    //Здесь применяется принцип SRP
     private Long teacherId;
 
     public Teacher(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {

@@ -3,6 +3,7 @@ package ru.gb.oseminar.data;
 import java.time.LocalDate;
 
 public class Student extends User implements Comparable<Student>{
+    //Здесь применяется принцип SRP
     private Long studentId;
 
     public Student(String firstName, String secondName, String patronymic, LocalDate dateOfBirth) {

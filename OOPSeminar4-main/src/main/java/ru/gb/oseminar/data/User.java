@@ -3,6 +3,7 @@ package ru.gb.oseminar.data;
 import java.time.LocalDate;
 
 public class User {
+    //Здесь применяется принцип SRP
     private String firstName;
     private String secondName;
     private String patronymic;
